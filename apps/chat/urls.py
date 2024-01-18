@@ -7,7 +7,7 @@ from django.contrib.auth.decorators import user_passes_test
 def is_authenticated(user):
     if user.is_authenticated:
         #return  user.email.endswith('@yahooinc.com') or user.email.startswith('bouguerra')
-        return  user.email.endswith('@gmail.com') or user.email.startswith('vkumbhar2592')
+        return  user.email.endswith('@gmail.com') or user.email.startswith('sashivaibhav')
     return False
 
 
